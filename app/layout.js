@@ -34,7 +34,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "AirDosa — AI-Powered Instant Dosa Drone Delivery",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "AirDosa — AI-Powered Instant Dosa Drone Delivery",
     description:
       "Get piping hot, crispy dosas delivered to your balcony or rooftop via hypersonic AI drones. Authentically prepared on board, dispatched in under 5 minutes.",
-    images: ["/og-image.svg"],
+    images: ["/opengraph-image"],
   },
 };
 
