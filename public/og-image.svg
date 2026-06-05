@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e"/>
+      <stop offset="50%" stop-color="#131722"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a00"/>
+      <stop offset="100%" stop-color="#ff3d00"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,122,0,0.2)"/>
+      <stop offset="100%" stop-color="rgba(255,122,0,0)"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,240,255,0.15)"/>
+      <stop offset="100%" stop-color="rgba(0,240,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowOrange)"/>
+  <rect width="1200" height="630" fill="url(#glowCyan)"/>
+
+  <!-- Drone icon -->
+  <g transform="translate(540, 80)">
+    <circle cx="60" cy="60" r="18" fill="url(#orange)"/>
+    <line x1="60" y1="42" x2="60" y2="18" stroke="#00f0ff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="60" y1="78" x2="60" y2="102" stroke="#00f0ff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="42" y1="60" x2="18" y2="60" stroke="#00f0ff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="78" y1="60" x2="102" y2="60" stroke="#00f0ff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="18" r="7" fill="#ff7a00"/>
+    <circle cx="60" cy="102" r="7" fill="#ff7a00"/>
+    <circle cx="18" cy="60" r="7" fill="#ff7a00"/>
+    <circle cx="102" cy="60" r="7" fill="#ff7a00"/>
+  </g>
+
+  <text x="600" y="230" text-anchor="middle" fill="#00f0ff" font-family="Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="6">FLIGHT STATUS: ACTIVE</text>
+  <text x="600" y="330" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="88" font-weight="800">Air<tspan fill="#ff7a00">Dosa</tspan></text>
+  <text x="600" y="400" text-anchor="middle" fill="#9ca3af" font-family="Arial, sans-serif" font-size="34" font-weight="600">Hypersonic Dosa Delivery  From Tawa to Terrace</text>
+
+  <rect x="380" y="460" width="180" height="56" rx="28" fill="url(#orange)"/>
+  <text x="470" y="497" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Order Now</text>
+
+  <rect x="580" y="460" width="240" height="56" rx="28" fill="none" stroke="rgba(0,240,255,0.6)" stroke-width="2"/>
+  <text x="700" y="497" text-anchor="middle" fill="#00f0ff" font-family="Arial, sans-serif" font-size="22" font-weight="600">Under 5 Minutes</text>
+</svg>
